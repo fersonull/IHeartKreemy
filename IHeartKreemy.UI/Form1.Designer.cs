@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IHeartKreemy));
             this.StartButton = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +82,12 @@
             this.panel1.Size = new System.Drawing.Size(523, 108);
             this.panel1.TabIndex = 3;
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
             // IHeartKreemy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -106,6 +115,7 @@
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 
