@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="IHeartKreemy.Console/IHeartKreemy.Console.csproj" />
+  <Project Path="IHeartKreemy.Core/IHeartKreemy.Core.csproj" />
+  <Project Path="IHeartKreemy.UI/IHeartKreemy.UI.csproj" />
+</Solution>
